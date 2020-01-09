@@ -16,4 +16,4 @@ The following animals are herbivores: **Deer**, **Rabbit**, **Groundhog** and **
 Every animal consists of a **name**, a **size**, the number of days it has not eaten (**hungerCount**), its coordinates (**x,y**), its **speed** and a number of flags indicating whether it's alive or dead (**isAlive**), if it's hungry or not (**isHungry**), if it's its reproduction period (**inHeat**), wheather it can hibernate or not (**hibernates**) and if it's currently hibernating (**inHibernation**). An animal can **Move**, **Eat** and grow (**Raise**). An animal has reached adulthood when its size has reached the maximum for its animal type.
 
 ### 1.3.1 Herbivore Description
-Each herbivores has two aditional characteristics: a flag for wheather it can climb or not (**canClimb**) and the amount of food it needs (**neededFood**).
+Each herbivores has two aditional characteristics: a flag for wheather it can climb or not (**canClimb**) and the amount of food it needs (**neededFood**). When a herbivore eats a plant it accumulates a specific amount of food (**eatCount**).
