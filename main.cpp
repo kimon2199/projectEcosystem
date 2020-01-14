@@ -1,10 +1,15 @@
 #include"eco.h"
 #include<cstdlib>
 
-int main(){
+int main(int argc, char *argv[]){
     std::srand(time(NULL));
-    Ecosystem eco(15);         //user input     terrain dimentions
-    eco.mapGenerator(3);       //user input     number of mountains
-    eco.runEcosystem(20,'p');  //user input     days,season
+    if (argc != 5){
+        printf("Wrong number of arguments. Try:\n<terrain dimentions> <number of mountains> <days> <season(w, p, u or f)>\n");
+        return -1;
+    }
+    
+    Ecosystem eco(std::atoi(argv[1]));         //user input     terrain dimentions
+    eco.mapGenerator(std::atoi(argv[2]));       //user input     number of mountains
+    eco.runEcosystem(std::atoi(argv[3]),argv[4][0]);  //user input     days,season
     eco.printSystem();
 }
