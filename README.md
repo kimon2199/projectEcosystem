@@ -5,11 +5,11 @@ The project is a simulator for a functioning ecosystem. It contains areas of dif
 To compile use:
 'make'
 To run use:
-'./ecosystemSimulator <terrain dimentions> <number of mountains> <days> <season>'
-  ⋅⋅* '<terrain dimentions>' :rr
-  ⋅⋅* '<number of mountains>' :rr
-  ⋅⋅* '<days>' :rr
-  ⋅⋅* '<season>' : rr
+`./ecosystemSimulator <terrain dimentions> <number of mountains> <days> <season>`
+  ⋅⋅* `<terrain dimentions>` :rr
+  ⋅⋅* `<number of mountains>` :rr
+  ⋅⋅* `<days>` :rr
+  ⋅⋅* `<season>` : rr
 
 ## 1 Ecosystem Description
 The **Ecosystem** that is being simulated consists of a **terrain**, which is a square grid of **tiles** of a specified width (**terrainSize**). It containd the current day (**dayOfYear**) as well as a factor used to determine the "reproduction days" and "growth days". Every tile represents a different type of land and can be home to one kind of plant and however many types of animals. The types of land can be: water (**#**), hill (**^**) or plane (**"**).
