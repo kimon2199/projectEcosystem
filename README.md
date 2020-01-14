@@ -3,13 +3,17 @@ The project is a simulator for a functioning ecosystem. It contains areas of dif
 
 ## 0 Usage
 To compile use:
-'make'
+
+`make`
+
 To run use:
+
 `./ecosystemSimulator <terrain dimentions> <number of mountains> <days> <season>`
-  ⋅⋅* `<terrain dimentions>` :rr
-  ⋅⋅* `<number of mountains>` :rr
-  ⋅⋅* `<days>` :rr
-  ⋅⋅* `<season>` : rr
+
+  * `<terrain dimentions>` : the size of the terrain's side
+  * `<number of mountains>` : the number of mountains generated on the terrain
+  * `<days>` : the number of days the simulation will run for
+  * `<season>` : the initial season, 'u' for summer, 'f' for fall, 'w' for winter, 'p' for spring
 
 ## 1 Ecosystem Description
 The **Ecosystem** that is being simulated consists of a **terrain**, which is a square grid of **tiles** of a specified width (**terrainSize**). It containd the current day (**dayOfYear**) as well as a factor used to determine the "reproduction days" and "growth days". Every tile represents a different type of land and can be home to one kind of plant and however many types of animals. The types of land can be: water (**#**), hill (**^**) or plane (**"**).
