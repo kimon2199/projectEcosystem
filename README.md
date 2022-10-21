@@ -1,4 +1,7 @@
 # ecosystemSimulator
+
+[Object-Oriented Programming](https://cgi.di.uoa.gr/~izambo/oop.html) @ [University of Athens](https://www.di.uoa.gr/en) Winter 2018
+
 The project is a simulator for a functioning ecosystem. It contains areas of different soil where plants and animals live, grow, eat, fight and reproduce. A date tracking system and consequently a seasons tracking system are also simulated.
 
 ## 0 Usage
